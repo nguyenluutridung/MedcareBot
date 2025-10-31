@@ -1,0 +1,146 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  scroll-behavior: smooth;
+}
+.muc-luc-dau {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff; 
+  color: #1a1a1a;
+  padding: 25px 100px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05)
+}
+.muc-luc {
+  display: flex;
+  gap: 30px;
+}
+.muc-luc a {
+  color: #5d82cb; 
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 8px 18px;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.muc-luc a:hover,
+.muc-luc a.active {
+  background-color: #e6f0ff;
+  color: #2b56a3;
+}
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.MedCareBot {
+  text-align: center;
+  padding: 60px 20px;
+}
+.MedCareBot h1 span {
+  font-size: 30px;
+  font-weight: 700;
+  color: #2b56a3; 
+}
+.anh-trang-chu {
+  width: 80%;
+  max-width: 900px;
+  margin-top: 40px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 2px solid #8b77ff;
+  border-radius: 25px;
+  padding: 3px 10px;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 6px 10px;
+  width: 130px;
+  font-size: 14px;
+  color: #333;
+}
+
+.search-box input::placeholder {
+  color: #b8b8b8;
+}
+
+.search-box button {
+  border: none;
+  background: none;
+  color: #444;
+  cursor: pointer;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.search-box button:hover {
+  color: #5d82cb;
+}
+
+.search-box:focus-within {
+  border-color: #5d82cb;
+  box-shadow: 0 0 4px rgba(93, 130, 203, 0.4);
+}
+
+.anh1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-bottom: 20px; 
+}
+
+.anh1 img {
+    width: 85%;
+    max-width: 1000px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+    opacity: 0.95;
+    transition: transform 0.3s ease;
+
+    object-fit: cover;
+    object-position: center;
+    clip-path: inset(5% 5% 5% 5%);
+}
+
+.anh1 img:hover {
+    transform: scale(1.05); 
+}
+.image-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;                
+  margin-top: 20px;
+}
+
+.image-card img 
+{
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
